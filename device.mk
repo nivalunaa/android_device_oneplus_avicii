@@ -180,6 +180,10 @@ PRODUCT_COPY_FILES += \
 
 $(call soong_config_set,surfaceflinger,udfps_lib,//$(LOCAL_PATH):libudfps_extension.oplus)
 
+# Framework-oplus
+PRODUCT_PACKAGES += \
+    framework-oplus
+
 PRODUCT_BOOT_JARS += \
     framework-oplus
 
